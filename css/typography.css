@@ -1,0 +1,39 @@
+.title-h1 {
+    font-weight: 200px;
+    font-size: 70px;
+    line-height: 100%;
+    color: var(--paragraphColor);
+}
+
+.subtitle-base {
+    font-weight: 105;
+    font-size: 18px;
+    line-height: 130%;
+    color: var(--paragraphColor);
+}
+
+.title-h2 {
+    font-weight: 200px;
+    font-size: 50px;
+    line-height: 100px;
+    text-align: center;
+    letter-spacing: -0.05em;
+}
+
+
+
+@media (max-width:769px){
+    .title-h2 {
+        font-size: calc(32px + 18 * (100vw / 1440));
+        line-height: 40px;
+    }
+    .title-h1 {
+        font-size: calc(35px + 35 * (100vw / 1440));
+    }
+}
+
+@media (max-width:769px){
+    .home-block {
+        padding: 170px 0px;
+    } 
+}

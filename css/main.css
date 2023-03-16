@@ -1,0 +1,46 @@
+@import url(about-us.css);
+@import url(carousel.css);
+@import url(container.css);
+@import url(footer.css);
+@import url(header.css);
+@import url(join-us.css);
+@import url(our-culture.css);
+@import url(resert.css);
+@import url(typography.css);
+
+:root {
+  --background: #FFF1ED;
+  --primaryColor: #00FFA3;
+  --titleColor: #040c22;
+  --paragraphColor: #FFF1ED;
+  --borderColor: #FFF1ED;
+  --primaryShadow: 0 1px rgba(0, 0, 0, 0.1);
+  --containerMaxWidth: 1440px;
+}
+
+/* slider  */
+
+.slider {
+  margin-top: 60px;
+}
+
+
+.carousel {
+  background: #FFF1ED;
+}
+.carusel-title {
+  font-weight: 105;
+  font-size: 50px;
+  line-height: 100%;
+  margin-top: 30px;
+  margin-left: 20px;
+
+  color: #2C392C;
+}
+
+
+@media(max-width:767px) {
+  .carusel-title {
+    font-size: calc(30px + 20 * (100vw / 1440));
+  }
+}

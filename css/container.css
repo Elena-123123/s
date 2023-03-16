@@ -1,0 +1,20 @@
+.wrapper {
+  min-width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
+  overflow-x: hidden;
+  /* flex: 1 1 auto; */
+}
+
+.container {
+    max-width: var(--containerMaxWidth);
+    margin-inline: auto;
+    padding-inline: 1.6rem;
+    margin-bottom: 60px;
+
+  }
+.soft-logo {
+    font-size: 30px;
+}
